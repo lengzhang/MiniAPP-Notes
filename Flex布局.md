@@ -15,23 +15,23 @@ display:flex;
 ```
 
 ```
-flex-direction: row（默认值） | row-reverse | column |column-reverse
+flex-direction:     row（默认值） | row-reverse | column |column-reverse
 ```
 
 ```
-flex-wrap: nowrap（默认值） | wrap | wrap-reverse
+flex-wrap:          nowrap（默认值） | wrap | wrap-reverse
 ```
 
 ```
-justify-content: flex-start（默认值） | flex-end | center |space-between | space-around | space-evenly
+justify-content:    flex-start（默认值） | flex-end | center |space-between | space-around | space-evenly
 ```
 
 ```
-align-items: stretch（默认值） | center  | flex-end | baseline | flex-start
+align-items:        stretch（默认值） | center  | flex-end | baseline | flex-start
 ```
 
 ```
-align-content: stretch（默认值） | flex-start | center |flex-end | space-between | space-around | space-evenly
+align-content:      stretch（默认值） | flex-start | center |flex-end | space-between | space-around | space-evenly
 ```
 
 ## Item 属性
