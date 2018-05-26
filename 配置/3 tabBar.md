@@ -29,3 +29,5 @@ tabBar 中的 list 是一个数组，**只能配置最少2个、最多5个 tab**
 |selectedIconPath|String|否|选中时的图片路径，icon 大小限制为40kb，建议尺寸为 81px * 81px|
 
 ![TabBar](../images/tabbar.png)
+
+图标资源: [www.iconfont.cn](www.iconfont.cn)
