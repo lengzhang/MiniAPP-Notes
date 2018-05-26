@@ -34,4 +34,4 @@
 }
 ```
 
-![](../images/window.png)
+![Window](../images/window.png)
