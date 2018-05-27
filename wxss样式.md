@@ -148,3 +148,20 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |outline-color|设置外边框的颜色|color-name<br>hex-number<br>rgb-number<br>invert<br>inherit|
     |outline-style|设置外边框的样式。|none<br>dotted<br>dashed<br>solid<br>double<br>groove<br>ridge<br>inset<br>outset<br>inherit|
     |outline-width|设置外边框的宽度|thin<br>medium<br>thick<br>length<br>inherit|
+
+7. **wxss 文本属性（text）**
+
+    |属性|说明|语法(属性值)|
+    |:-|:-|:-|
+    |color|设置文本颜色||
+    |direction|设置文本方向。|ltr:文本方向从左到右;rtl:文本方向从右到左|
+    |letter-spacing|设置字符间距|
+    |line-height|设置行高|
+    |text-align|对齐元素中的文本|left：把文本排列到左边。默认值，由浏览器决定。<br>right：把文本排列到右边。<br>center：把文本排列到中间。<br>justify：实现两端对齐文本效果。<br>inherit: 规定应该从父元素继承 text-align 属性的值。<br>text-decoration	向文本添加修饰	underline 定义文本下的一条线。<br>overline 定义文本上的一条线。<br>line-through 定义穿过文本下的一条线。<br>blink 定义闪烁的文本。|
+    |text-indent|缩进元素中文本的首行||
+    |text-shadow|设置文本阴影|text-shadow: h-shadow<br>v-shadow blur color;<br>h-shadow:水平阴影的位置,允许负值;<br>v-shadow:垂直阴影的位置,允许负值;<br>blur:模糊的距离;<br>color:阴影的颜色|
+    |text-transform|控制元素中的字母|capitalize 文本中的每个单词以大写字母开头。<br>uppercase 定义仅有大写字母。<br>lowercase 定义无大写字母，仅有小写字母。|
+    |unicode-bidi|设置或返回文本是否被重写||
+    |vertical-align|设置元素的垂直对齐||
+    |white-space|设置元素中空白的处理方式||
+    |word-spacing|设置字间距||
