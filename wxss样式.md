@@ -176,4 +176,22 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |font-size|指定文本的字体大小|smaller 把 font-size 设置为比父元素更小的尺寸。<br>larger 把 font-size 设置为比父元素更大的尺寸。<br>length 把 font-size 设置为一个固定的值。<br>% 把 font-size 设置为基于父元素的一个百分比值。|
     |font-family|指定文本的字体系列||
 
-    
+9. **wxss margin(外边距)（margin）**
+
+    |属性|说明|语法(属性值)|
+    |:-|:-|:-|
+    |margin|在一个声明中设置所有外边距属性。|margin:10px 5px 15px 20px;(上边距，右边距，下边距，左边距)|
+    |margin-top|设置元素的上外边距。||
+    |margin-right|设置元素的右外边距。||
+    |margin-bottom|设置元素的下外边距。||
+    |margin-left|设置元素的左外边距||
+
+10. **wxss padding(填充)（padding）**
+
+    |属性|说明|语法(属性值)|
+    |:-|:-|:-|
+    |padding|使用缩写属性设置在一个声明中的所有填充属性|padding:10px 5px 15px 20px;(上填充，右填充，下填充，左填充)|
+    |padding-top|设置元素的顶部填充。||
+    |padding-right|设置元素的右部填充||
+    |padding-bottom|设置元素的底部填充||
+    |padding-left|设置元素的左部填充||
