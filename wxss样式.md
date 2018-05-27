@@ -117,4 +117,16 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |none默认值|元素不浮动，并会显示在其在文本中出现的位置。|
     |inherit|规定应该从父元素继承 float 属性的值。|
 
-4. 
+4. wxss background(背景)
+
+    |属性|说明|语法(属性值)|
+    |:-|:-|:-|
+    |background|简写属性，作用是将背景属性设置在一个声明中|background: color position size repeat origin clip attachment image;|
+    |background-color|指定要使用的背景颜色|||
+    |background-position|指定背景图像的位置|background-position:center|
+    |background-size |指定背景图片的大小|background-size:80px 60px;宽度 高度|
+    |background-repeat|指定如何重复背景图像|repeat,repeat-x,repeat-y,no-repeat,inherit|
+    |background-origin|指定背景图像的定位区域|padding-box 背景图像填充框的相对位置<br>border-box 背景图像边界框的相对位置<br>content-box 背景图像的相对位置的内容框|
+    |background-clip|指定背景图像的绘画区域|属性值，同上|
+    |background-attachment|设置背景图像是否固定或者随着页面的其余部分滚动。|scroll 背景图片随页面的其余部分滚动。这是默认<br>fixed 背景图像是固定的<br>inherit 指定background-attachment的设置应该从父元素继承<br>local 背景图片随滚动元素滚动|
+    |background-image|指定要使用的一个或多个背景图像|url('URL') 图像的URL<br>none 无图像背景会显示。这是默认<br>inherit 指定背景图像应该从父元素继承|
