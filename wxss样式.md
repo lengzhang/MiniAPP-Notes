@@ -165,3 +165,15 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |vertical-align|设置元素的垂直对齐||
     |white-space|设置元素中空白的处理方式||
     |word-spacing|设置字间距||
+
+8. **wxss 字体属性（font）**
+
+    |属性|说明|语法(属性值)|
+    |:-|:-|:-|
+    |font|在一个声明中设置所有字体属性|font:font-style font-variant font-weight font-size/line-height font-family(按顺序)|
+    |font-style|指定文本的字体样式|normal 默认值。浏览器显示一个标准的字体样式。<br>italic 浏览器会显示一个斜体的字体样式。<br>oblique 浏览器会显示一个倾斜的字体样式。<br>inherit 规定应该从父元素继承字体样式。|
+    |font-variant|以小型大写字体或者正常字体显示文本|normal 默认值。浏览器会显示一个标准的字体。<br>small-caps 浏览器会显示小型大写字母的字体。<br>inherit 规定应该从父元素继承 font-variant 属性的值。<br>font-weight	指定字体的粗细	normal 默认值。定义标准的字符。<br>bold 定义粗体字符。<br>bolder 定义更粗的字符。<br>lighter 定义更细的字符。<br>inherit 规定应该从父元素继承字体的粗细。|
+    |font-size|指定文本的字体大小|smaller 把 font-size 设置为比父元素更小的尺寸。<br>larger 把 font-size 设置为比父元素更大的尺寸。<br>length 把 font-size 设置为一个固定的值。<br>% 把 font-size 设置为基于父元素的一个百分比值。|
+    |font-family|指定文本的字体系列||
+
+    
