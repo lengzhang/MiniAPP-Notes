@@ -195,3 +195,7 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |padding-right|设置元素的右部填充||
     |padding-bottom|设置元素的底部填充||
     |padding-left|设置元素的左部填充||
+
+**css文档：** http://www.w3cschool.cn/css/css-tutorial.html
+
+**微信小程序文档：** http://www.w3cschool.cn/weixinapp/9wou1q8j.html
