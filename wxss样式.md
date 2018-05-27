@@ -130,3 +130,12 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |background-clip|指定背景图像的绘画区域|属性值，同上|
     |background-attachment|设置背景图像是否固定或者随着页面的其余部分滚动。|scroll 背景图片随页面的其余部分滚动。这是默认<br>fixed 背景图像是固定的<br>inherit 指定background-attachment的设置应该从父元素继承<br>local 背景图片随滚动元素滚动|
     |background-image|指定要使用的一个或多个背景图像|url('URL') 图像的URL<br>none 无图像背景会显示。这是默认<br>inherit 指定背景图像应该从父元素继承|
+
+5. wxss border(边框)
+
+    |属性|说明|语法(属性值)|
+    |:-|:-|:-|
+    |border|简写属性，用于把针对四个边的属性设置在一个声明|border:5px solid red;|
+    |border-width|用于为元素的所有边框设置宽度，或者单独地为各边边框设置宽度|border-top-width 上右下左边框厚度<br>属性值：<br>thin<br>medium<br>thick|
+    |border-style|设置元素所有边框的样式，或者单独地为各边设置边框样式。|border-top-width 上右下左边框样式<br>属性值：<br>none: 默认无边框<br>dotted: 定义一个点线框<br>dashed: 定义一个虚线框<br>solid: 定义实线边界<br>double: 定义两个边界。 两个边界的宽度和border-width的值相同<br>groove: 定义3D沟槽边界。效果取决于边界的颜色值<br>ridge: 定义3D脊边界。效果取决于边界的颜色值<br>inset:定义一个3D的嵌入边框。效果取决于边界的颜色值<br>outset: 定义一个3D突出边框。 效果取决于边界的颜色值|
+    |border-color|元素的所有边框中可见部分的颜色，或为 4 个边分别设置颜色|border-top-width 上右下左边框颜色<br>属性值：<br>name - 指定颜色的名称，如 "red"<br>RGB - 指定 RGB 值, 如 "rgb(255,0,0)"<br>Hex - 指定16进制值, 如 "#ff0000"|
