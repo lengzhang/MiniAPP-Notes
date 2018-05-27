@@ -96,4 +96,14 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |table-footer-group|作为一个或多个行的分组来显示（类似 \<tfoot\>）|
     |inherit|从父元素继承 display 属性的值|
 
-**flex:多栏多列布局** http://www.360doc.com/content/14/0811/01/2633_400926000.shtml
+    **flex:多栏多列布局** http://www.360doc.com/content/14/0811/01/2633_400926000.shtml
+
+2. wxss position(定位)
+
+    |属性|说明|
+    |:-|:-|
+    |absolute|生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。|
+    |relative|生成相对定位的元素，相对于其正常位置进行定位。因此，"left:20" 会向元素的 LEFT 位置添加 20 像素。|
+    |fixed|生成绝对定位的元素，相对于浏览器窗口进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。|
+    |static|默认值。没有定位，元素出现在正常的流中（忽略 top, bottom, left, right 或者 z-index 声明）|
+    |inherit|规定应该从父元素继承 position 属性的值|
