@@ -107,3 +107,14 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |fixed|生成绝对定位的元素，相对于浏览器窗口进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。|
     |static|默认值。没有定位，元素出现在正常的流中（忽略 top, bottom, left, right 或者 z-index 声明）|
     |inherit|规定应该从父元素继承 position 属性的值|
+
+3. wxss float(浮动)
+
+    |属性|说明|
+    |:-|:-|
+    |left|元素向左浮动|
+    |right|元素向右浮动|
+    |none默认值|元素不浮动，并会显示在其在文本中出现的位置。|
+    |inherit|规定应该从父元素继承 float 属性的值。|
+
+4. 
