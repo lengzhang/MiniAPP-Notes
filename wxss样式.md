@@ -72,7 +72,7 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
 
 ## wxss样式属性
 
-1. wxss display(显示)
+1. **wxss display(显示)**
 
     |属性|说明||
     |:-|:-|:-|
@@ -98,7 +98,7 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
 
     **flex:多栏多列布局** http://www.360doc.com/content/14/0811/01/2633_400926000.shtml
 
-2. wxss position(定位)
+2. **wxss position(定位)**
 
     |属性|说明|
     |:-|:-|
@@ -108,7 +108,7 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |static|默认值。没有定位，元素出现在正常的流中（忽略 top, bottom, left, right 或者 z-index 声明）|
     |inherit|规定应该从父元素继承 position 属性的值|
 
-3. wxss float(浮动)
+3. **wxss float(浮动)**
 
     |属性|说明|
     |:-|:-|
@@ -117,7 +117,7 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |none默认值|元素不浮动，并会显示在其在文本中出现的位置。|
     |inherit|规定应该从父元素继承 float 属性的值。|
 
-4. wxss background(背景)
+4. **wxss background(背景)**
 
     |属性|说明|语法(属性值)|
     |:-|:-|:-|
@@ -131,7 +131,7 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |background-attachment|设置背景图像是否固定或者随着页面的其余部分滚动。|scroll 背景图片随页面的其余部分滚动。这是默认<br>fixed 背景图像是固定的<br>inherit 指定background-attachment的设置应该从父元素继承<br>local 背景图片随滚动元素滚动|
     |background-image|指定要使用的一个或多个背景图像|url('URL') 图像的URL<br>none 无图像背景会显示。这是默认<br>inherit 指定背景图像应该从父元素继承|
 
-5. wxss border(边框)
+5. **wxss border(边框)**
 
     |属性|说明|语法(属性值)|
     |:-|:-|:-|
@@ -139,3 +139,12 @@ app.wxss是全局样式，作用于每一个页面，而page下的每一个的wx
     |border-width|用于为元素的所有边框设置宽度，或者单独地为各边边框设置宽度|border-top-width 上右下左边框厚度<br>属性值：<br>thin<br>medium<br>thick|
     |border-style|设置元素所有边框的样式，或者单独地为各边设置边框样式。|border-top-width 上右下左边框样式<br>属性值：<br>none: 默认无边框<br>dotted: 定义一个点线框<br>dashed: 定义一个虚线框<br>solid: 定义实线边界<br>double: 定义两个边界。 两个边界的宽度和border-width的值相同<br>groove: 定义3D沟槽边界。效果取决于边界的颜色值<br>ridge: 定义3D脊边界。效果取决于边界的颜色值<br>inset:定义一个3D的嵌入边框。效果取决于边界的颜色值<br>outset: 定义一个3D突出边框。 效果取决于边界的颜色值|
     |border-color|元素的所有边框中可见部分的颜色，或为 4 个边分别设置颜色|border-top-width 上右下左边框颜色<br>属性值：<br>name - 指定颜色的名称，如 "red"<br>RGB - 指定 RGB 值, 如 "rgb(255,0,0)"<br>Hex - 指定16进制值, 如 "#ff0000"|
+
+6. **wxss 轮廓（outline）**
+
+    |属性|说明|语法(属性值)|
+    |:-|:-|:-|
+    |outline|在一个声明中设置所有的外边框属性|outline-color<br>outline-style<br>outline-width<br>inherit|
+    |outline-color|设置外边框的颜色|color-name<br>hex-number<br>rgb-number<br>invert<br>inherit|
+    |outline-style|设置外边框的样式。|none<br>dotted<br>dashed<br>solid<br>double<br>groove<br>ridge<br>inset<br>outset<br>inherit|
+    |outline-width|设置外边框的宽度|thin<br>medium<br>thick<br>length<br>inherit|
